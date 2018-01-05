@@ -4,9 +4,11 @@
 
 a simple teamspeak bot with some features:
 
+```diff
 - JoinMessage
 - CMDS:
-  - [#f03c15](https://placehold.it/15/f03c15/000000?nopoke=+) `#f03c15`
+  - !nopoke
   - !nomessage
 - SupportMessage
 - AFKMover
+```
