@@ -20,12 +20,12 @@ public class NoPoke {
 
                 if(e.getMessage().startsWith("!nopoke")) {
 
-                    if (!c.isInServerGroup(10)) {                                                                 //NoPoke ID
-                        Data.api.addClientToServerGroup(10, c.getDatabaseId());                                      //NoPoke ID
+                    if (!c.isInServerGroup(10)) {                                                                 
+                        Data.api.addClientToServerGroup(10, c.getDatabaseId());                                      
                         Data.api.sendPrivateMessage(c.getId(), "Du wurdest zur Servergruppe [color=red]NoPoke[/color]hinzugefügt!");
                         //NoPoke ID
-                    } else if (c.isInServerGroup(10)) {                                                           //NoPoke ID
-                        Data.api.removeClientFromServerGroup(10, c.getDatabaseId());                            //NoPoke ID
+                    } else if (c.isInServerGroup(10)) {                                                          
+                        Data.api.removeClientFromServerGroup(10, c.getDatabaseId());                           
                         Data.api.sendPrivateMessage(c.getId(), "Du wurdest von der Servergruppe [color=red]NoPoke[/color]entfernt!");
                     }
                 }
