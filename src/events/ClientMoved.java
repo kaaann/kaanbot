@@ -26,7 +26,7 @@ public class ClientMoved {
 
 
                     for (Client c : Data.api.getClients()) {
-                        if (c.isInServerGroup(12)) {                                                         //Supporter ID
+                        if (c.isInServerGroup(12)) {                                                        
 
                             teammember.add(c.toString());
 
