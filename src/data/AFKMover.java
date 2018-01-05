@@ -48,7 +48,7 @@ public class AFKMover {
                                         Channel.put(c.getUniqueIdentifier(), c.getChannelId());
                                         AFK.remove(c.getUniqueIdentifier());
                                         Data.api.sendPrivateMessage(c.getId(), "Du wurdest in den [B][color=orange]AFK-Bereich[/B][/color] verschoben!");
-                                        Data.api.moveClient(c.getId(), 3);                                    //AFK-Bereich ID
+                                        Data.api.moveClient(c.getId(), 3);                                    
                                     }
                                 }
                             }else{
