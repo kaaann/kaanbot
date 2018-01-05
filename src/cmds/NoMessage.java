@@ -21,12 +21,12 @@ public class NoMessage {
 
                 if(e.getMessage().startsWith("!nomessage")) {
 
-                    if (!c.isInServerGroup(11)) {                                                                 //NoMessage ID
-                        Data.api.addClientToServerGroup(11, c.getDatabaseId());                                      //NoMessage ID
+                    if (!c.isInServerGroup(11)) {                                                                
+                        Data.api.addClientToServerGroup(11, c.getDatabaseId());                                      
                         Data.api.sendPrivateMessage(c.getId(), "Du wurdest zur Servergruppe [color=red]NoMessage[/color]hinzugefügt!");
                         //NoPoke ID
-                    } else if (c.isInServerGroup(11)) {                                                           //NoMessage ID
-                        Data.api.removeClientFromServerGroup(11, c.getDatabaseId());                            //NoMessage ID
+                    } else if (c.isInServerGroup(11)) {                                                           
+                        Data.api.removeClientFromServerGroup(11, c.getDatabaseId());                           
                         Data.api.sendPrivateMessage(c.getId(), "Du wurdest von der Servergruppe [color=red]NoMessage[/color]entfernt!");
                     }
                 }
