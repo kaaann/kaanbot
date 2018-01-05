@@ -13,12 +13,12 @@ public class Core {
 
     public static void main(String[] args) {
 
-        Data.config.setHost("176.31.152.4");
+        Data.config.setHost("xxx");
         Data.config.setFloodRate(TS3Query.FloodRate.DEFAULT);
         Data.query.connect();
-        Data.api.login("Bot", "IohxK7BM");
+        Data.api.login("xxx", "xxx");
         Data.api.selectVirtualServerById(1);
-        Data.api.setNickname("ExactBot");
+        Data.api.setNickname("kaanbot");
 
         Data.api.registerAllEvents();
 
