@@ -4,11 +4,10 @@
 
 a simple teamspeak bot with some features:
 
-```diff
 + JoinMessage
 + CMDS:
-+ !nopoke
+  <span style="color:orange;">TEST</span>- !nopoke
 + !nomessage
 + SupportMessage
 + AFKMover
-```
+
